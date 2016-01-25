@@ -6,7 +6,7 @@ sudo pip install --upgrade  setuptools<br>
 sudo pip install Adafruit_IO<br>
 
 #To view most recent values of Red, Green, Blue type:<br>
- ./ReadAdaFruitIO.py
- or
- python ReadAdaFruitIO.py
+ ./ReadAdaFruitIO.py<br>
+ or<br>
+ python ReadAdaFruitIO.py<br>
 
