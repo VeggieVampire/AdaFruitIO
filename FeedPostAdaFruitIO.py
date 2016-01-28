@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Simple example of sending a Command Line Argument value from Adafruit IO feed
+# Simple example of sending a Command Line Argument value to Adafruit IO feed
 # API client.
 # Modified by Nick Farrow
 #
