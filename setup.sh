@@ -37,9 +37,9 @@ echo 'f.close()'>>TestAIO.py
 echo 'from Adafruit_IO import Client'>>TestAIO.py
 echo 'ADAFRUIT_IO_KEY = string'>>TestAIO.py
 echo 'aio = Client(ADAFRUIT_IO_KEY)'>>TestAIO.py
-echo "aio.send($AIOfeed, 'Working')">>TestAIO.py
+echo "aio.send($AIOfeed, 'Working')">>TestAIO.py #line doesn't work
 echo "data = aio.receive('$AIOfeed')">>TestAIO.py
-echo "print('$AIOfeed: {0}'.format(data.value))">>TestAIO.py
+echo "print('$AIOfeed: {0}'.format(data.value))">>TestAIO.py  #line doesn't work
 #Testing AIO
 python TestAIO.py
 
