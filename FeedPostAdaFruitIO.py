@@ -39,6 +39,6 @@ aio = Client(ADAFRUIT_IO_KEY)
 # exist already.
 
 #Converting Command Line Argument to Adafruit IO format 
-AIOconv = "'"+line1+"'"
-
+#AIOconv = "'"+line1+"'"
+AIOconv = "'"+line1+"'".strip()
 aio.send('Weather', AIOconv )
