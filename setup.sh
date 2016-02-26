@@ -1,3 +1,4 @@
+wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
 echo "updating/installing setuptools"
 sudo pip install --upgrade setuptools
 echo "updating/installing Adafruit_IO"
