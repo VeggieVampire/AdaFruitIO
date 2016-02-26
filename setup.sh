@@ -1,4 +1,7 @@
 wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
+sudo easy_install pip
+echo "updating/installing virtualenv virtualenvwrapper"
+sudo pip install --upgrade pip virtualenv virtualenvwrapper
 echo "updating/installing setuptools"
 sudo pip install --upgrade setuptools
 echo "updating/installing Adafruit_IO"
