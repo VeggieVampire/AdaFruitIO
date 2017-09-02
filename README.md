@@ -2,6 +2,9 @@
 Python code for using AdaFruitIO<br>
 
 To run this code you must setup your client.<br>
+
+sudo apt-get update<br>
+sudo apt-get install -y git build-essential curl python-pip python-smbus python-dev<br>
 sudo pip install --upgrade  setuptools<br>
 sudo pip install Adafruit_IO<br>
 
