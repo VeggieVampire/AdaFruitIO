@@ -13,7 +13,7 @@ read AIOkey
 echo $AIOkey
 echo $AIOkey>key.cfg
 chmod 600 key.cfg
-
+wget https://raw.githubusercontent.com/adafruit/io-client-python/master/examples/simple.py
 
 #untested go no further!
 echo "untested go no further!"
